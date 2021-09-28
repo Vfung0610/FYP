@@ -1,4 +1,4 @@
-#Step Before Installation
+# Step Before Installation
 Please add api key into the function getSearchResult and getOntologyBuildURL in searcher.py from backend code
 
 # Installation Step
