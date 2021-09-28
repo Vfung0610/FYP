@@ -1,0 +1,13 @@
+version: "3"
+services:
+  backend:
+    build: ./BackEnd/
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./BackEnd/src/ontology/:/code/ontology
+
+  frontend:
+    build: ./FrontEnd/
+    ports:
+      - "3000:3000"

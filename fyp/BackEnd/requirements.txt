@@ -1,0 +1,8 @@
+beautifulsoup4
+google
+google-api-python-client
+spacy
+Owlready2
+flask-restful
+flask-cors
+html5lib

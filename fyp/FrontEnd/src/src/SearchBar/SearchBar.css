@@ -1,0 +1,39 @@
+.searchBar {
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+}
+
+.submitButton {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  top: 3px;
+  right: 10px;
+}
+
+.searchTxtInput {
+  height: 50px;
+  width: 40vw;
+  outline: none;
+  border-radius: 100px;
+  border-width: 1px;
+  font-size: 1em;
+}
+
+.advanceSearch {
+  padding: 10px;
+  border: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  font-size: 1em;
+}
+
+.domainKnowledge {
+  text-align: left;
+}
+
+.advanceSearchType {
+  text-align: left;
+}

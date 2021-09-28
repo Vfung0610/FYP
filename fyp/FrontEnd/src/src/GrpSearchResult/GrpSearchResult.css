@@ -1,0 +1,57 @@
+h2 {
+  font-size: 1.2em;
+  font-weight: inherit;
+  text-align: left;
+  margin: 7px;
+}
+
+.GrpSearchResult_Main {
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 0 10px;
+  width: 75vw;
+  box-shadow: -3px -3px 5px inset rgb(228, 228, 228),
+    3px 3px 5px inset rgb(228, 228, 228);
+}
+
+.GrpSearchResult_Main > button {
+  font-size: 0.6em;
+  float: right;
+  margin: 8px 0px;
+  cursor: pointer;
+  background-color: rgb(231, 249, 255);
+  border: none;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+.GrpSearchResult_Other {
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 10px 10px;
+  box-shadow: -3px -3px 5px inset rgb(228, 228, 228),
+    3px 3px 5px inset rgb(228, 228, 228);
+  position: relative;
+}
+
+.GrpSearchResult_Other > a {
+  font-size: 0.6em;
+  float: right;
+  margin: 5px;
+}
+
+.ShowMoreIcon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.navPage {
+  text-align: right;
+}
